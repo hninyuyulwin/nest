@@ -9,7 +9,7 @@ async function bootstrap() {
   //   forbidNonWhitelisted:true,
   //   always:true
   // }));
-  app.enableCors();
+  // app.enableCors();
   app.setGlobalPrefix('api');
   await app.listen(3000);
 }
